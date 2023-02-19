@@ -1,6 +1,5 @@
-import "./App.css";
+import "./About.css";
 import HelloWorld from "./HelloWorld";
-import Navbar from "./Navbar";
 
 export default function App() {
   return (
@@ -8,8 +7,6 @@ export default function App() {
       <div className="container">
         <header className="App-header"></header>
         <main>
-          Esmée Zootjes <br /> creates web applications & marketing concepts
-          <Navbar />
           <HelloWorld />
           <a href="#" className="btn btn-primary">
             get in touch!
