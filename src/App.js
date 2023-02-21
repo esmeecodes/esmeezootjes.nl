@@ -1,6 +1,10 @@
 import "./App.css";
+import React from "react";
 import HelloWorld from "./HelloWorld";
 import Navbar from "./Navbar";
+import About from "./About";
+import Contact from "./Contact";
+import Work from "./Work";
 
 export default function App() {
   return (
@@ -11,11 +15,19 @@ export default function App() {
           Esmée Zootjes <br /> creates web applications & marketing concepts
           <Navbar />
           <HelloWorld />
-          <a href="#" className="btn btn-primary">
+          <About />
+          <Work />
+          <Contact />
+          <a href="mailto:hello@esmeezootjes.nl" className="btn btn-primary">
             get in touch!
           </a>
         </main>
-        <footer>Coded by Esmée Zootjes</footer>
+        <footer>
+          Coded by{" "}
+          <a href="https://nl.linkedin.com/in/esmeezootjes" target="_blank">
+            Esmée Zootjes
+          </a>
+        </footer>
       </div>
     </div>
   );

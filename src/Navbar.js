@@ -25,7 +25,7 @@ export default function Navbar() {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="about.html"
+                  href="about.js"
                   title="about"
                   alt="go to about page"
                 >
