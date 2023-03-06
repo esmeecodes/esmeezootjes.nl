@@ -1,0 +1,10 @@
+div .Footerprops {
+  display: flex;
+  margin: 10px 30px;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
