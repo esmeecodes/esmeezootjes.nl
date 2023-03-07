@@ -7,7 +7,7 @@ export default function Navbar() {
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
           <a className="navbar-brand" href="index.html">
-            HOME
+            home
           </a>
           <button
             className="navbar-toggler"
@@ -25,7 +25,7 @@ export default function Navbar() {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="about.js"
+                  href="/About"
                   title="about"
                   alt="go to about page"
                 >
